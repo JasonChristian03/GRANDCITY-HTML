@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+body{
+    background-color: #0978ca;
+    position: relative;
+}
+.log{
+    text-align: center;
+}
+.logo{
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+    transition: transform .2s;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.title{
+    color: white;
+    font-size: 50px;
+}
+nav ul{
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 20px;
+}
+nav ul li{
+    color: #0978ca;
+    cursor:pointer;
+    background-color: white;
+    width: 33%;
+    height: 20px;
+    border: 0px;
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+nav ul li:hover{
+    color:#0978ca;
+    cursor:pointer;
+    height: 20px;
+    width: 33%;
+    border: 0px;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+}
+.column{
+    width: 33,33%;
+    padding: 5px;
+    text-align: center;
+}
+.img2{
+    width: 100%;
+    margin-top: 15px;
+}
+.img1{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.img3{
+    width: 100%;
+    margin-top: 15px;
+}
+.t1{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.row2{
+    display: flex;
+    text-align: center;
+}
+.column2{
+    width: 20%;
+    padding: 5px;
+}
+.imgLogo{
+    width: 90%;
+    margin-top: 40px;
+    transition: transform .2s;
+}
+.imgLogo:hover{
+    transform: scale(1.1);
+}
+.row3{
+    display: flex;
+    text-align: center;
+}
+.column3{
+    width: 20%;
+    padding: 5px;
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #0978ca;
+    margin-top: 20px;
+    float: left;
+}
+.footJud{
+    text-align: center;
+}
+.footText{
+    text-align: center;
+}
+.bus{
+    margin-left: 130px;
+}
+.footRow{
+    display: flex;
+}
+.footCol{
+    width: 50%;
+    padding: 5px;
+}
+.ins{
+    width: 8%;
+    padding: 5px;
+}
+.ins:hover{
+    transform: scale(1.1);
+}
+.contInf{
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+form{
+    text-align: center;
+    color: white;
+}
+.box{
+    width: 30%;
+    height: 25px;
+}
+.box[type=text]:focus{
+    background-color:#69bfff;
+}
+.msgBox{
+    width: 30%;
+}
+.submit{
+    color: #0978ca;
+    background-color: white;
+    border: none;
+    width: 10%;
+    height: 30px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    margin-top: 10px;
+}
+.submit:hover{
+    background-color: #69bfff;
+    color: white;
+}
+.fRow1{
+    width: 100%;
+}
+.park{
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.parkT{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+}
+.parktext{
+    float: left;
+    margin-left: 15px;
+    color: white;
+}
+.fRow2{
+    width: 100%;
+}
+.foodc{
+    float: right;
+    width: 25%;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.foodcT{
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    color: white;
+}
+.foodctext{
+    float: right;
+    margin-right: 15px;
+    color: white;
+}
+.fRow3{
+    width: 100%;
+}
+.toilet{
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.toiletT{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+}
+.toiletext{
+    float: left;
+    margin-left: 15px;
+    color: white;
+}
+.fRow4{
+    width: 100%;
+}
+.depo{
+    float: right;
+    width: 20%;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.depoT{
+    float: right;
+    margin-top: 15px;
+    margin-right: 93px;
+    color: white;
+}
+.depotext{
+    float: right;
+    margin-right: 93px;
+    color: white;
+}
